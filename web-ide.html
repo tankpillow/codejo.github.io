@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CodeJo | Web IDE</title>
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/webide.css">
+        <link rel="stylesheet" href="assets/css/navbar.css">
+        <link rel="stylesheet" href="assets/css/footer.css">
+        <link rel="stylesheet" href="https://codemirror.net/lib/codemirror.css">
+        <link rel="stylesheet" href="assets/css/show-hint.css">
+
+        <script type="text/javascript" src="https://codemirror.net/lib/codemirror.js"></script>
+        <script type="text/javascript" src="https://codemirror.net/mode/xml/xml.js"></script>
+        <script type="text/javascript" src="https://codemirror.net/mode/css/css.js"></script>
+        <script type="text/javascript" src="https://codemirror.net/mode/javascript/javascript.js"></script>
+        
+
+    </head>
+    <body>
+        <header>
+            <img src="assets/imgs/logo.png" width=256 height=114>
+            <nav>
+                <ul id="navBar">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a class="active" href="web-ide.html">Website IDE</a></li>
+                </ul>
+            </nav>
+        </header>
+    
+        <main>
+            <div class="controlBar">
+                <button id="run-btn">Run</button>
+            </div>
+
+            <div class="editor">
+                <div class="code">
+                    <div class="html-code"></div>
+                    <div class="css-code"></div>
+                    <div class="js-code"></div>
+                </div>
+
+                <div class="preview">
+                    <iframe id="preview-window"></iframe>
+                </div>
+
+            </div>
+
+        </main>
+
+        <footer>
+            <p>CodeJo is made with cookies and milk!</p>
+        </footer>
+        <script type="text/javascript" src="assets/js/show-hint.js"></script>
+        <script type="text/javascript" src="assets/js/html-hint.js"></script>
+        <script type="text/javascript" src="assets/js/css-hint.js"></script>
+        <script type="text/javascript" src="assets/js/javascript-hint.js"></script>
+        <script type="text/javascript" src="assets/js/webide.js"></script>
+    </body>
+</html>

@@ -1,0 +1,31 @@
+header {
+    background-color: #333333;
+}
+
+#navBar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(43, 43, 43);
+}
+
+#navBar li {
+    float: left;
+}
+  
+#navBar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+#navBar li a:hover:not(.active) {
+    background-color: rgb(7, 7, 7);
+}
+  
+.active {
+    background-color: #ff0000;
+}

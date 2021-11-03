@@ -1,0 +1,69 @@
+main {
+    padding-left: 0px;
+}
+
+.controlBar {
+    width: 100%;
+    height: 50px;
+    background-color: #505050;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.controlBar button {
+    padding: 10px 20px;
+    background-color: #19d833;
+    color: #000000;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    border-radius: 0px;
+    cursor: pointer;
+}
+
+.controlBar button:hover {
+    padding: 10px 20px;
+    background-color: #12b127;
+    color: #000000;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    border-radius: 0px;
+    cursor: pointer;
+}
+
+.editor {
+    width: 100%;
+    height: calc(100vh - 50px);
+    display: flex;
+}
+
+.editor .code {
+    width: 500px;
+    border-right: 1px solid #888888;
+}
+
+.editor .code > div {
+    width: 100%;
+    height: 33.33%;
+    border-bottom: 1px solid #888888;
+}
+
+.editor .preview {
+    width: calc(100% - 500px);
+    height: 100%;
+}
+
+.editor .preview iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+}
+.CodeMirror {
+    height: auto;
+    
+}
